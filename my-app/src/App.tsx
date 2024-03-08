@@ -1,11 +1,11 @@
 import './App.css';
-import { TaskManager } from './components/taskManager';
+import { TaskManagerPage } from './taskManagerPage';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TaskManager/>
+        <TaskManagerPage/>
       </header>
     </div>
   );

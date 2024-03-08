@@ -13,6 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input[type="text"] {
+  @apply block w-full my-4 rounded-lg;
+}
+
 * {
   margin: 0;
   padding: 0;
